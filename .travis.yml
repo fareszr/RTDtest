@@ -1,10 +1,21 @@
+language: python # Set the build language to Python
 
-language: python
-script:
-  - pip install git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
-  - pip install mkdocs-simple-plugin
-  - pip install mkdocs
-  - mkdocs build
-  - git add site
-  - git commit -m "building site"
-  - git push
+python: 3.8 # Set the version of Python to use
+
+branches: master # Set the branch to build from
+
+install:
+    - pip install mkdocs # Install the required dependencies
+
+script: true # Skip script (Don't use this if one already exists)
+
+before_deploy:
+    - mkdocs build --verbose --clean --strict # Build a local version of the docs
+
+deploy: # Deploy documentation to Github in the gh_pages branch
+    provider: pages
+    skip_cleanup: true
+    github_token: fe05205509181b9acd0016f54621fb974c3b8738
+    local_dir: site
+    on:
+        branch: master
