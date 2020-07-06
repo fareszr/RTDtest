@@ -1,3 +1,0 @@
-mkdocs==1.1.2
-mkdocs-material
-git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
