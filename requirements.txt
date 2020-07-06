@@ -1,1 +1,2 @@
 mkdocs-material
+git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
