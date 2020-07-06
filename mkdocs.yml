@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: شرح تثبيت هاكنتوش بالعربي
+repo_url: https://github.com/arhackintosh/artutorial
+site_description: اول و اكبر شرح عربي للهاكنتوش
+site_author: ARhackintosh
+copyright: gplV3
+remote_branch: gh-pages
+plugins:
+  - mkdocs-simple-plugin
+  - autolinks
