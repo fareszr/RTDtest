@@ -1,0 +1,7 @@
+
+language: python
+script:
+  - pip install mkdocs
+  - pip install git+https://github.com/midnightprioriem/mkdocs-autolinks-plugin
+  - pip install mkdocs-simple-plugin
+  - mkdocs build
