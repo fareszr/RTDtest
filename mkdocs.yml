@@ -5,3 +5,7 @@ site_author: ARhackintosh
 copyright: gplV3
 plugins:
   - autolinks
+theme:
+  name: material
+  palette:
+    scheme: slate
