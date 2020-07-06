@@ -5,5 +5,4 @@ site_author: ARhackintosh
 copyright: gplV3
 remote_branch: gh-pages
 plugins:
-  - mkdocs-simple-plugin
   - autolinks
