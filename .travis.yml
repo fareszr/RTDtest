@@ -5,3 +5,6 @@ script:
   - pip install mkdocs-simple-plugin
   - pip install mkdocs
   - mkdocs build
+  - git add site
+  - git commit -m "building site"
+  - git push
