@@ -7,3 +7,9 @@ plugins:
   - autolinks
 theme:
   name: material
+  language: ar
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: indigo
+    font: false
