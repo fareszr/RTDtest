@@ -5,11 +5,4 @@ site_author: ARhackintosh
 copyright: gplV3
 plugins:
   - autolinks
-theme:
-  name: material
-  language: ar
-  font: false
-  palette:
-    scheme: slate
-    primary: deep purple
-    accent: indigo
+
