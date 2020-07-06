@@ -8,8 +8,8 @@ plugins:
 theme:
   name: material
   language: ar
+  font: false
   palette:
     scheme: slate
     primary: deep purple
     accent: indigo
-    font: false
